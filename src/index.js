@@ -28,7 +28,7 @@ function logTree(root, getChildren, getNodeLog) {
       depthByNode.set(child, nodeDepth + 1);
     });
     const lastChild = children[children.length - 1];
-    if (lastChild) {
+    if (children.length) {
       lastChildSet.add(lastChild);
     }
 

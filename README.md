@@ -66,7 +66,7 @@ console.log(arrLog);
     |   |   ├── 4
     |   |   └── cat
     |   ├── 5
-    |   ├── undefined
+    |   └── undefined
     ├── 6
     ├── null
     └── []
