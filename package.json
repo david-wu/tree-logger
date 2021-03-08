@@ -1,0 +1,25 @@
+{
+  "name": "tree-logger",
+  "version": "1.0.1",
+  "lockfileVersion": 1,
+  "dependencies": {},
+  "description": "tree-logger",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/david-wu/tree-logger.git"
+  },
+  "keywords": [
+    "tree",
+    "logger"
+  ],
+  "author": "david-wu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/david-wu/tree-logger/issues"
+  },
+  "homepage": "https://github.com/david-wu/tree-logger#readme"
+}
