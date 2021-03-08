@@ -19,7 +19,7 @@ function logTree(root, getChildren, getNodeLog) {
 
     const spacing = getSpacing(nodeDepth, openLevelDepths);
     const delimeter = lastChildSet.has(node) ? '└── ' : '├── '
-    levelLogs.push(`${spacing}${delimeter}${getNodeLog(node) || ''}`);
+    levelLogs.push(`${spacing}${delimeter}${getNodeLog(node)}`);
 
     const children = getChildren(node) || [];
     openLevelDepths.add(nodeDepth);
